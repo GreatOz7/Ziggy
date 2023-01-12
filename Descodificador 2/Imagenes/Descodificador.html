@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Descodificador Alura</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="logo">
+            <img class="logoimg" src="Logo.svg" alt="imagen de Logo">
+            <h1 class="title">Encriptador de Mensaje</h1>
+        </div>
+        <div class="left">
+            <input class="textinput" type="text" placeholder="Ingrese el texto aqui" id="inputTexto">
+        </div>
+        
+        <div class="right">
+            <img src="Doll.svg" alt="imagen de doll" id="imagendoll">
+            <h1 id="texto">Ningun mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name" id="" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar</textarea>
+            
+            <button type="button" id="buttoncopiar" name="button" onclick="copy()">Copiar</button>
+
+        </div>
+        <div class="leftbutton">
+            <div class="alertsign">
+                <img src="Frame 1.svg" alt="alertsign">
+            </div>
+            <button type="button" id="buttonencriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="buttondesencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="Descodificador_APP.js"></script>
+    <footer class="footer">
+        <p>
+            Elaborado por por &copy; GreatOz
+        </p>
+    </footer>
+</body>
